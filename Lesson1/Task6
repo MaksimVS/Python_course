@@ -1,0 +1,9 @@
+number = input("Введите шестизначное число: ")
+
+sum_A = int(number[0]) + int(number[1]) + int(number[2])
+sum_B = int(number[-3]) + int(number[-2]) + int(number[-1])
+
+if sum_A == sum_B:
+    print("yes")
+else:
+    print("no")
